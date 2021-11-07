@@ -1,0 +1,5 @@
+flask
+cssmin
+jsmin
+pandas
+gunicorn

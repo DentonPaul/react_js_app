@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/init.css') }}" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1.0" />
+        <title>Teams</title>
+    </head>
+    <body>
+        <!-- Here a loader is created which 
+             loads till response comes -->
+        <h1>Teams</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Big_Ten_Conference_logo.svg/888px-Big_Ten_Conference_logo.svg.png" alt="bigten" width=300 height="auto">
+        <!-- table for showing data -->
+        <table id="teams"></table>
+        <script data-main="scripts/app" src="{{ url_for('static', filename='js/teams.js')}}"></script>
+    </body>
+</html>

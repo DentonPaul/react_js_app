@@ -1,0 +1,19 @@
+.env
+*.pyc
+venv*
+env
+*.tags*
+
+.cache
+_cache/*
+
+*.DS_Store
+# local development
+*.db
+
+# pytest
+.coverage
+.webassets-cache/
+
+# Visual Studio Code
+.vscode
